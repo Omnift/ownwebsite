@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    /* font-family: Palanquin,sans-serif; */
+    font-family: 'century gothic';
+    background-color:#fff;
+}
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar{
+    background-color: transparent;
+    width:0;
+}
+/* nav *{border:1px solid black;} */
+nav{
+    display: flex;
+    padding:1em;
+}
+h1{
+    padding:0;
+    margin:0;
+}
+nav div{
+    flex: 4;
+}
+nav a{
+    color:rgb(28, 67, 85);
+    text-decoration: none;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div2 a:hover{
+    cursor: pointer;
+    border-bottom:2px solid teal;
+    /* font-weight:bold; */
+}
+img{
+    width:100%;
+    background-blend-mode: color;
+}
+.aboutus{
+    padding:1em;
+    color:teal;
+    background-color:rgba(232, 223, 223, 0.14);
+}
+.aboutus h1{text-align: center;}
+.aboutus p{
+    line-height: 2;
+}
+.aboutus .wrapper{
+    display:flex;
+    justify-content: space-around;
+}
+.aboutus .wrapper div{
+    padding:1em;
+}
+.aboutus button{
+    border:0;
+    padding:1ch;
+    color:white;
+    background-color: teal;
+}
+.aboutus button:hover{
+    box-shadow: 0 0 10px 0 teal;
+    cursor: pointer;
+}
+.services{
+    padding:1em;
+    color:rgb(37, 48, 82);
+    background-color:#eef9ee;
+}
+.services h1{text-align: center;}
+.services .wrapper{
+    display:flex;
+    justify-content: space-around;
+}
+.services .wrapper div{
+    padding:1em;
+}
+.services label{
+    text-align:center;
+    display: block;
+}
+.icon1{
+    color:#926767;
+}
+.icon2{
+    color:#5d7561;
+}
+.icon3{
+    color:#3b6b84;
+}
+.icon4{
+    color:#0706068a;
+}
+.contactus{
+    padding:1em;
+    color:white;
+    background-color: black;
+}
+.contactus a{
+    text-decoration: none;
+    color:grey;
+}
+.contactus h1{
+    text-align: center;
+}
+.contactus .wrapper{
+    display:flex;
+    justify-content: space-around;
+}
+.contactus .wrapper div{
+    padding:1em;
+}
+.contactus p{
+    line-height: 2;
+    /* color:rgba(255, 255, 0, 0.589); */
+}
+.contactus a:hover{
+    color:white;
+    cursor: pointer;
+}
+.contactus input[type=email],
+.contactus textarea,
+.contactus button{
+    width:100%;
+    padding:1ch;
+}
+.contactus button{
+    color:white;
+    border:1px solid white;
+    background-color:transparent;
+}
+.contactus button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 white;
+}
